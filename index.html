@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Guess The Word</title>
+    <meta name="description" content="Game: guess the word displayed on the screen by partner's description">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.css">
+</head>
+<body>
+<div id="page-1" class="page">
+    <div class="container">
+        <h1>指手画脚</h1>
+        <ul>
+            <li>
+                <span class="button-wrap">
+                    <a href="#start" data-group="0" class="button button-circle button-flat-action">第一组</a>
+                </span>
+            </li>
+            <li>
+                <span class="button-wrap">
+                    <a href="#start" data-group="1" class="button button-circle button-flat-highlight">第二组</a>
+                </span>
+            </li>
+            <li>
+                <span class="button-wrap">
+                    <a href="#start" data-group="2" class="button button-circle button-flat-caution">第三组</a>
+                </span>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="page-2" class="page">
+    <div id="score"></div>
+    <div id="time"></div>
+    <div class="container">
+        <h1 id="word">The Word</h1>
+        <ul>
+            <li>
+                <a href="#right" class="button button-rounded button-caution button-jumbo">正确</a>
+            </li>
+            <li>
+                <a href="#skip" class="button button-rounded button-primary button-jumbo">跳过</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="page-3" class="page">
+    <div class="container">
+        <h1 id="totalScore"></h1>
+
+        <h2 id="thanks"></h2>
+    </div>
+    <div class="arrow"></div>
+    <div class="footer">
+        <p>by: Kailai Shao</p>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.scroll_to.js"></script>
+<script type="text/javascript" src="js/buttons.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
